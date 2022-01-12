@@ -78,7 +78,7 @@ font-family: 'Oswald', sans-serif;
   -webkit-user-select: none;
 
   width: 30%;
-  
+
 
 }
 
@@ -103,4 +103,36 @@ content: "Vincent Van Gogh";
 }
 .button-28:hover::after {
  content: "“I don't know anything with certainty, but seeing the stars makes me dream.”";
+}
+
+.btn {
+  background-color: #CA965C;
+  border: 1px solid;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+
+}
+
+.btn:hover {
+  background-color: #CA965C;
+}
+
+.btn:focus {
+  border-color: blue;
+  outline: 0;
 }
